@@ -10,6 +10,8 @@ namespace commandpromptspel_denny_patrik
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("panda lol gitgud");
+            Console.ReadLine();
         }
     }
 }
