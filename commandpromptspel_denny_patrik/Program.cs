@@ -57,6 +57,8 @@ namespace karl_axels_cmd_adventure
             
         //    Console.WriteLine("\nDu vann!!! Spelet stängs av...");
             Console.ReadLine();
+
+         //testtest
         }
     }
 }
