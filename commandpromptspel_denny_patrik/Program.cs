@@ -10,18 +10,24 @@ namespace karl_axels_cmd_adventure
     {
         static void Main(string[] args)
         {
-            Boolean harYxa = false;
-            Boolean träd = false;
-            string input;
+
 
             Console.WriteLine("---Välkommen till Panda försvunna äventyr---");
             Console.WriteLine("\nDu vaknar upp i en jungle. Det enda som finns är träd och ett temple bakom träden. Det ligger en yxa på marken");
-
+            Console.ReadLine();
+            skog();
+        }
+      
+           
+            private static void skog()
+        { 
             while (true) //oändlig loop
             {
+                Boolean harYxa = false;
+                Boolean träd = false;
+                string input;
                 Console.Write("\n>");
                 input = Console.ReadLine();
-
                 if (input == "träd" || input == "gå fram" || input == "gå fram till träd")
                 {
                     if (harYxa)
@@ -30,6 +36,9 @@ namespace karl_axels_cmd_adventure
                         träd = true;
                     }
                     else
+                    {
+                        
+                    }
                         Console.WriteLine("Träden i vägen");
                 }
                 //test//
